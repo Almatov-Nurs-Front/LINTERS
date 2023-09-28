@@ -1,0 +1,6 @@
+{
+  "@Almatov-Nurs/Button": "./src/components/Button/Button",
+  "@Almatov-Nurs/BigComponent": "./src/components/BigComponent/BigComponent",
+  "@TimerTypes": "./src/components/Timer/types",
+  "@Timer": "./src/components/Timer/Timer"
+}

@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-order-config-standard"
+  ],
+  "plugins": [
+    "stylelint-order",
+    "stylelint-scss"
+  ],
+  "rules": {
+    "indentation": 2,
+    "color-hex-case": "lower",
+    "at-rule-no-unknown": null,
+    "import-notation": "string",
+    "no-invalid-position-at-import-rule": true,
+    "max-empty-lines": 1
+  }
+}

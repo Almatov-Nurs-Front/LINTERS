@@ -1,0 +1,10 @@
+{
+  "editor.formatOnSave": true,
+  "stylelint.enable": true,
+  "eslint.enable": true,
+  "stylelint.validate": ["css", "scss"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  }
+}

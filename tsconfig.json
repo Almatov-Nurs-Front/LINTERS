@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "types": [
+      "sass",
+      "node"
+    ],
+    "lib": [
+      "ES6",
+      "DOM"
+    ],
+    "target": "ES6",
+    "jsx": "react-jsx",
+    "module": "commonjs",
+    "outDir": "./build",
+    "moduleResolution": "node",
+    "strict": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "@Almatov-Nurs/Button": [
+        "./src/components/Button/Button"
+      ],
+      "@Almatov-Nurs/BigComponent": [
+        "./src/components/BigComponent/BigComponent"
+      ],
+      "@TimerTypes": [
+        "./src/components/Timer/types"
+      ],
+      "@Timer": [
+        "./src/components/Timer/Timer"
+      ]
+    }
+  },
+  "include": [
+    "./config/**/*",
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
